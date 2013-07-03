@@ -1,0 +1,32 @@
+IMUIP: 192.168.0.61
+IMUPortNum: 10001
+drrobot_player: {Enable_IR: false, Enable_US: false, EncoderCircleCnt: 190, IMUIP: 192.168.0.61,
+  IMUPortNum: 10001, MaxSpeed: 1.0, MinSpeed: 0.1, MotorDir: 1, RobotBaseIP: 192.168.0.60,
+  RobotCommMethod: Network, RobotID: drrobot1, RobotPortNum: 10001, RobotSerialPort: /dev/ttyS0,
+  RobotType: Jaguar, WheelDistance: 0.45, WheelRadius: 0.135}
+drrobot_player1:
+  drrobot_player: {Enable_IR: false, Enable_US: false, EncoderCircleCnt: 190, IMUIP: 192.168.0.61,
+    IMUPortNum: 10001, MaxSpeed: 1.0, MinSpeed: 0.1, MotorDir: 1, RobotBaseIP: 192.168.0.60,
+    RobotCommMethod: Network, RobotID: drrobot1, RobotPortNum: 10001, RobotSerialPort: /dev/ttyS0,
+    RobotType: Jaguar, WheelDistance: 0.45, WheelRadius: 0.135}
+rosdistro: fuerte
+roslaunch:
+  uris: {host_drrobot_dimension_4300__33073: 'http://drrobot-Dimension-4300:33073/',
+    host_drrobot_dimension_4300__33086: 'http://drrobot-Dimension-4300:33086/', host_drrobot_dimension_4300__33373: 'http://drrobot-Dimension-4300:33373/',
+    host_drrobot_dimension_4300__33481: 'http://drrobot-Dimension-4300:33481/', host_drrobot_dimension_4300__35162: 'http://drrobot-Dimension-4300:35162/',
+    host_drrobot_dimension_4300__35416: 'http://drrobot-Dimension-4300:35416/', host_drrobot_dimension_4300__38682: 'http://drrobot-Dimension-4300:38682/',
+    host_drrobot_dimension_4300__39180: 'http://drrobot-Dimension-4300:39180/', host_drrobot_dimension_4300__40697: 'http://drrobot-Dimension-4300:40697/',
+    host_drrobot_dimension_4300__40770: 'http://drrobot-Dimension-4300:40770/', host_drrobot_dimension_4300__42086: 'http://drrobot-Dimension-4300:42086/',
+    host_drrobot_dimension_4300__42453: 'http://drrobot-Dimension-4300:42453/', host_drrobot_dimension_4300__43176: 'http://drrobot-Dimension-4300:43176/',
+    host_drrobot_dimension_4300__46725: 'http://drrobot-Dimension-4300:46725/', host_drrobot_dimension_4300__47158: 'http://drrobot-Dimension-4300:47158/',
+    host_drrobot_dimension_4300__48239: 'http://drrobot-Dimension-4300:48239/', host_drrobot_dimension_4300__49204: 'http://drrobot-Dimension-4300:49204/',
+    host_drrobot_dimension_4300__49296: 'http://drrobot-Dimension-4300:49296/', host_drrobot_dimension_4300__50056: 'http://drrobot-Dimension-4300:50056/',
+    host_drrobot_dimension_4300__50665: 'http://drrobot-Dimension-4300:50665/', host_drrobot_dimension_4300__51289: 'http://drrobot-Dimension-4300:51289/',
+    host_drrobot_dimension_4300__52039: 'http://drrobot-Dimension-4300:52039/', host_drrobot_dimension_4300__52561: 'http://drrobot-Dimension-4300:52561/',
+    host_drrobot_dimension_4300__52603: 'http://drrobot-Dimension-4300:52603/', host_drrobot_dimension_4300__53115: 'http://drrobot-Dimension-4300:53115/',
+    host_drrobot_dimension_4300__54057: 'http://drrobot-Dimension-4300:54057/', host_drrobot_dimension_4300__55987: 'http://drrobot-Dimension-4300:55987/',
+    host_drrobot_dimension_4300__56350: 'http://drrobot-Dimension-4300:56350/', host_drrobot_dimension_4300__56731: 'http://drrobot-Dimension-4300:56731/',
+    host_drrobot_dimension_4300__57386: 'http://drrobot-Dimension-4300:57386/', host_drrobot_dimension_4300__60625: 'http://drrobot-Dimension-4300:60625/',
+    host_drrobot_dimension_4300__60935: 'http://drrobot-Dimension-4300:60935/'}
+rosversion: 1.8.10
+run_id: 2bad08c4-7d0d-11e2-bd94-000476cc797c
