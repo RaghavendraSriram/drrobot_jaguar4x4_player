@@ -1,7 +1,7 @@
 <package>
   <description brief="drrobot_jaguar4x4_player">
 
-     drrobot_jaguar4x4_player
+     This player package will drive Jaguar4x4 robot and publish all the sensor data from robot
 
   </description>
   <author>Dr Robot</author>
