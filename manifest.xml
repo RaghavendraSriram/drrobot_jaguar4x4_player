@@ -1,13 +1,13 @@
 <package>
-  <description brief="drrobot_player">
+  <description brief="drrobot_jaguar4x4_player">
 
-     drrobot_player
+     drrobot_jaguar4x4_player
 
   </description>
-  <author>dri</author>
+  <author>Dr Robot</author>
   <license>BSD</license>
   <review status="unreviewed" notes=""/>
-  <url>http://ros.org/wiki/drrobot_player</url>
+  <url>http://ros.org/wiki/drrobot_jaguar_ros_pkg</url>
   <depend package="roscpp"/>
   <depend package="rospy"/>
   <depend package="tf"/>
