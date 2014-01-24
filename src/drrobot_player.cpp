@@ -138,7 +138,7 @@ public:
         private_nh.getParam("RobotCommMethod",robotCommMethod_);
         ROS_INFO("I get ROBOT_CommMethod: [%s]", robotCommMethod_.c_str());
 
-        robotIP_ = "192.168.0.60";
+        robotIP_ = "192.168.0.70";
         private_nh.getParam("RobotBaseIP",robotIP_);
         ROS_INFO("I get ROBOT_IP: [%s]", robotIP_.c_str());
 

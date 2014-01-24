@@ -103,8 +103,8 @@ DrRobotJoystickTeleopMode::DrRobotJoystickTeleopMode():
   nh_.param("scale_angular", a_scale_, a_scale_);
   nh_.param("scale_linear", l_scale_, l_scale_);
 
-  l_scale_ = 1.0;
-  a_scale_ = 1.0;
+  l_scale_ = 0.5;
+  a_scale_ = 0.5;
   vel_pub_ = nh_.advertise<geometry_msgs::Twist>("drrobot_cmd_vel", 1);
 
   joy_sub_ = nh_.subscribe<sensor_msgs::Joy>("joy", 10, &DrRobotJoystickTeleopMode::joyCallback, this);
